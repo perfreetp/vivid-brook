@@ -1,0 +1,18 @@
+{
+  "name": "silicone-fingertip-tool",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node scripts/test-geometry.mjs && node scripts/check-wgsl.mjs"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^3.1.2",
+    "svelte": "^4.2.19",
+    "vite": "^5.4.8",
+    "wgsl_reflect": "^1.6.0"
+  }
+}
