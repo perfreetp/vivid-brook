@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.chrome-prof/
+*.log
+smoke*.png
+dom.html
+debug-cdp.mjs
