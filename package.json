@@ -1,0 +1,23 @@
+{
+  "name": "utility-gallery-review",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "地下综合管廊三维分层审图台 (SolidJS + WebGL2)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:model": "node scripts/test-model.mjs",
+    "test:e2e": "node scripts/e2e-browser.mjs",
+    "screenshot": "node scripts/screenshot-all.mjs"
+  },
+  "dependencies": {
+    "solid-js": "^1.9.5"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^24.43.1",
+    "vite": "^6.3.5",
+    "vite-plugin-solid": "^2.11.6"
+  }
+}
