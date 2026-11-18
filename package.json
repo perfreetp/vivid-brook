@@ -1,0 +1,23 @@
+{
+  "name": "river-terrain-modeler",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "河道地形曲面与堤线建模台（水利测绘院）",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "three": "^0.161.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.161.0",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11"
+  },
+  "allowScripts": {
+    "esbuild@0.21.5": true
+  }
+}
