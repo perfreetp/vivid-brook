@@ -1,0 +1,21 @@
+{
+  "name": "mold-gating-editor",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@babylonjs/core": "^7.54.3",
+    "earcut": "^3.0.1",
+    "polygon-clipping": "^0.15.7",
+    "solid-js": "^1.9.5"
+  },
+  "devDependencies": {
+    "vite": "^5.4.19",
+    "vite-plugin-solid": "^2.11.6"
+  }
+}
