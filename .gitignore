@@ -16,3 +16,13 @@ node_modules/
 __pycache__/
 .venv/
 venv/
+
+# SvelteKit / 构建产物
+.svelte-kit/
+build/
+package/
+
+# 运行时数据（课件 JSON 库、导出文件、日志）
+.data/
+*.log
+
